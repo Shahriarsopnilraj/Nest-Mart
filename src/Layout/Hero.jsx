@@ -29,7 +29,7 @@ const Hero = () => {
   });
   
   return (
-    <section className="max-w-[1400px] mx-auto">
+    <section className="max-w-[1400px] mx-auto text-black">
       <h1 className="text-xl font-semibold mt-10">Featured Categories</h1>
       <div className="flex items-center gap-2">
         <button className="p-3 text-2xl hover:bg-gray-300 transition">

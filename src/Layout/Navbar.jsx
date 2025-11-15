@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="w-11/12 mx-auto flex justify-between items-center mt-3">
+      <div className="w-11/12 mx-auto flex justify-between items-center mt-3 text-black">
         <div className="flex gap-3">
             <img src={Logo} alt="" />
             <div className="flex flex-col justify-center items-center">

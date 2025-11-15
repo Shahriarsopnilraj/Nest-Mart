@@ -19,10 +19,10 @@ const ProductCard = ({ product }) => {
       />
 
       {/* Product Info */}
-      <div className="mt-3 flex flex-col flex-grow justify-between">
+      <div className="mt-3 flex flex-col  justify-between">
         <div>
           <p className="text-sm text-gray-500">{product.brand}</p>
-          <h1 className="text-lg font-semibold leading-tight">
+          <h1 className="text-lg font-semibold text-black leading-tight">
             {product.productName}
           </h1>
           <p className="text-xs text-gray-400">By {product.poweredBy}</p>
