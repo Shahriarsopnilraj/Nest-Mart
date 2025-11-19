@@ -6,6 +6,7 @@ import Blog from './Pages/Blog/Blog'
 import Contact from './Pages/Contact/Contact'
 import Megamenu from './Pages/MegaMenu/Megamenu'
 import App from './App'
+import Login from './Pages/Login'
 
 const Routes = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const Routes = createBrowserRouter([
                 path:"/megamenu",
                 element:<Megamenu></Megamenu>
             },
+            {
+                path:"/login",
+                element: <Login></Login>
+            }
 
         ]
     }
